@@ -1,0 +1,30 @@
+html, body {
+    font-family: roboto, arial, sans-serif;
+    background: linear-gradient(180deg, rgba(255, 165, 176, 0.8) 0%, #6A197D 100%), #6A197D;;
+    backdrop-filter: blur(4px);
+    color: #F5F5F5;
+    height: 100%;
+}
+
+.navbar {
+    position: relative;
+    float: right;
+    top:17px;
+}
+.nav-link {
+    color: #F5F5F5; 
+    font: Helvetica;
+    font-size: 70%;
+}
+
+.nav-link:hover {
+    color: #6A197D;
+}
+
+.active {
+    font-weight: bolder;
+}
+
+.home-title {
+    font-size: 100px;
+}
